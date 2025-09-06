@@ -101,7 +101,7 @@ h1{
 
 .stuff-text {
     line-height: 1.5;
-	font-size: 0.9rem;
+	font-size: 0.95rem;
 	color: #575757;
 	margin-bottom: 0.2rem;
 }
@@ -197,3 +197,4 @@ img {
     -webkit-transform: translateZ(0);
 
 }
+
