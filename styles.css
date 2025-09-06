@@ -139,34 +139,27 @@ h1{
 /* Responsive goes here */
 /* Responsive goes here */
 
+
 @media (max-width: 768px) {
 	
     .main-content {
-        padding: 0 1.5rem;
+        padding: 0 2rem;
     }
-  
-  body {
-	font-size: 0.95rem;
-    }
-	
-	.stuff-text {
-	font-size: 0.85rem;
-}
 	
 }	
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .main-content {
         padding: 0 1.5rem;
     }
 	
 	
 	body {
-	font-size: 0.9rem;
+	font-size: 0.95rem;
     }
     
 	.stuff-text {
-	font-size: 0.8rem;
+	font-size: 0.85rem;
     }
 }
     
@@ -202,4 +195,5 @@ html {
 img {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
+
 }
