@@ -1,4 +1,6 @@
-/* I know how to do the toggle in the same page, I did multiple pages for SEO.  */
+/* Professional programmers are probably laughing at the fact that I created a separate page for Dark mode. 
+I am not in the mood to deal with JS at the moment. Let it be.*/
+
 * {
     margin: 0;
     padding: 0;
@@ -141,32 +143,24 @@ h1{
 @media (max-width: 768px) {
 	
     .main-content {
-        padding: 0 1.5rem;
+        padding: 0 2rem;
     }
-	
-	 body {
-	font-size: 0.95rem;
-    }
-	
-	stuff-text {
-	font-size: 0.85rem;
-}
 	
 }	
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .main-content {
         padding: 0 1.5rem;
     }
 	
+	
 	body {
-	font-size: 0.9rem;
-}
-
-.stuff-text {
-	font-size: 0.8rem;
+	font-size: 0.95rem;
     }
     
+	.stuff-text {
+	font-size: 0.85rem;
+    }
 }
     
 
@@ -201,4 +195,5 @@ html {
 img {
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
+
 }
